@@ -25,6 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb)); */
 }
+.head{
+  color: white; 
+  background-color: rgb(71, 130, 240);
+  height: 50px;
+}
+
+.bg-content{
+  padding: 100px 30px 0px !important;
+}
+
 
 @layer utilities {
   .text-balance {

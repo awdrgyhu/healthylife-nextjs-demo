@@ -1,7 +1,10 @@
-import Image from "next/image";
+import React from "react";
+import AboutPage from "./about/page";
 
-export default function Home() {
+const About = () => {
   return (
-    <div>Hello World!</div>
+    <AboutPage></AboutPage>
   );
-}
+};
+
+export default About;
